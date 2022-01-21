@@ -1,0 +1,43 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /home/daphnelme/Xilinx/Vivado/2020.1/bin/unwrapped/lnx64.o/xelab -wto 266895c9ac054907b00dff02c99a96e7 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling module xil_defaultlib.PRBS_DATA
+Compiling module xil_defaultlib.FIFO34
+Compiling module xil_defaultlib.FMSC
+Compiling architecture rtl of entity xil_defaultlib.CRC [crc_default]
+Compiling module unisims_ver.IBUFDS_GTE2
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=3.0,C...
+Compiling module xil_defaultlib.DAPHNE_TX_CLOCK_MODULE(MULT=3.0,...
+Compiling module xil_defaultlib.DAPHNE_TX_GT_USRCLK_SOURCE
+Compiling module unisims_ver.BUFH
+Compiling module xil_defaultlib.DAPHNE_TX_cpll_railing_default
+Compiling module unisims_ver.GTPE2_COMMON(BIAS_CFG=64'b010100...
+Compiling module xil_defaultlib.DAPHNE_TX_common
+Compiling module xil_defaultlib.DAPHNE_TX_common_reset(STABLE_CL...
+Compiling module unisims_ver.GTPE2_CHANNEL(ALIGN_COMMA_ENABLE...
+Compiling module xil_defaultlib.DAPHNE_TX_GT(GT_SIM_GTRESET_SPEE...
+Compiling module xil_defaultlib.DAPHNE_TX_multi_gt(WRAPPER_SIM_G...
+Compiling module unisims_ver.FDRE_default
+Compiling module unisims_ver.FD
+Compiling module xil_defaultlib.DAPHNE_TX_sync_block
+Compiling module xil_defaultlib.DAPHNE_TX_TX_STARTUP_FSM(STABLE_...
+Compiling module xil_defaultlib.DAPHNE_TX_init_default
+Compiling module xil_defaultlib.DAPHNE_TX_support
+Compiling module xil_defaultlib.DAPHNE_TX
+Compiling module unisims_ver.IBUFDS
+Compiling module xil_defaultlib.TX
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_tb_behav

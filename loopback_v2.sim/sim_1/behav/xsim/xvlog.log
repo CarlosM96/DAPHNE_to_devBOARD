@@ -1,0 +1,38 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_TEST/2nd/loopback_v2/loopback_v2.srcs/sources_1/ip/DAPHNE_TX/daphne_tx_common_reset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DAPHNE_TX_common_reset
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_TEST/2nd/loopback_v2/loopback_v2.srcs/sources_1/ip/DAPHNE_TX/DAPHNE_TX/example_design/support/daphne_tx_clock_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DAPHNE_TX_CLOCK_MODULE
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_TEST/2nd/loopback_v2/loopback_v2.srcs/sources_1/ip/DAPHNE_TX/daphne_tx_common.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DAPHNE_TX_common
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_TEST/2nd/loopback_v2/loopback_v2.srcs/sources_1/ip/DAPHNE_TX/daphne_tx_gt_usrclk_source.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DAPHNE_TX_GT_USRCLK_SOURCE
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_TEST/2nd/loopback_v2/loopback_v2.srcs/sources_1/ip/DAPHNE_TX/daphne_tx_support.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DAPHNE_TX_support
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_TEST/2nd/loopback_v2/loopback_v2.srcs/sources_1/ip/DAPHNE_TX/daphne_tx_cpll_railing.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DAPHNE_TX_cpll_railing
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_TEST/2nd/loopback_v2/loopback_v2.srcs/sources_1/ip/DAPHNE_TX/DAPHNE_TX/example_design/daphne_tx_tx_startup_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DAPHNE_TX_TX_STARTUP_FSM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_TEST/2nd/loopback_v2/loopback_v2.srcs/sources_1/ip/DAPHNE_TX/DAPHNE_TX/example_design/daphne_tx_rx_startup_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DAPHNE_TX_RX_STARTUP_FSM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_TEST/2nd/loopback_v2/loopback_v2.srcs/sources_1/ip/DAPHNE_TX/daphne_tx_init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DAPHNE_TX_init
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_TEST/2nd/loopback_v2/loopback_v2.srcs/sources_1/ip/DAPHNE_TX/daphne_tx_gt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DAPHNE_TX_GT
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_TEST/2nd/loopback_v2/loopback_v2.srcs/sources_1/ip/DAPHNE_TX/daphne_tx_multi_gt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DAPHNE_TX_multi_gt
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_TEST/2nd/loopback_v2/loopback_v2.srcs/sources_1/ip/DAPHNE_TX/DAPHNE_TX/example_design/daphne_tx_sync_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DAPHNE_TX_sync_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_TEST/2nd/loopback_v2/loopback_v2.srcs/sources_1/ip/DAPHNE_TX/daphne_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DAPHNE_TX
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_TEST/2nd/loopback_v2/loopback_v2.srcs/sources_1/new/FIFO34.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO34
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_TEST/2nd/loopback_v2/loopback_v2.srcs/sources_1/new/FMSC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FMSC
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_TEST/2nd/loopback_v2/loopback_v2.srcs/sources_1/new/PRBS_DATA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PRBS_DATA
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_TEST/2nd/loopback_v2/loopback_v2.srcs/sources_1/new/TX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TX
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_TEST/2nd/loopback_v2/loopback_v2.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_TEST/2nd/loopback_v2/loopback_v2.srcs/sim_1/new/top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb

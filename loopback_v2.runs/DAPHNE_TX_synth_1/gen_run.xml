@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="DAPHNE_TX_synth_1" LaunchPart="xc7a200tfbg676-2" LaunchTime="1642697414">
+  <File Type="VDS-TIMING-PB" Name="DAPHNE_TX_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="DAPHNE_TX_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="DAPHNE_TX.dcp"/>
+  <File Type="REPORTS-TCL" Name="DAPHNE_TX_reports.tcl"/>
+  <File Type="PA-TCL" Name="DAPHNE_TX.tcl"/>
+  <File Type="RDS-RDS" Name="DAPHNE_TX.vds"/>
+  <File Type="RDS-PROPCONSTRS" Name="DAPHNE_TX_drc_synth.rpt"/>
+  <File Type="RDS-UTIL" Name="DAPHNE_TX_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="DAPHNE_TX_utilization_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/DAPHNE_TX">
+    <File Path="$PSRCDIR/sources_1/ip/DAPHNE_TX/DAPHNE_TX.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="DAPHNE_TX"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/DAPHNE_TX">
+    <File Path="$PSRCDIR/sources_1/ip/DAPHNE_TX/DAPHNE_TX.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="DAPHNE_TX"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
